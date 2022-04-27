@@ -21,6 +21,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-drupal`,
+      options: {
+        baseUrl: `https://dev-test-gatsby.pantheonsite.io/`
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
