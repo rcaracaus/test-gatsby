@@ -23,7 +23,8 @@ module.exports = {
     {
       resolve: `gatsby-source-drupal`,
       options: {
-        baseUrl: `https://dev-test-gatsby.pantheonsite.io/`
+        baseUrl: `https://dev-test-gatsby.pantheonsite.io/`,
+        fastbuilds: true,
       },
     },
     {
